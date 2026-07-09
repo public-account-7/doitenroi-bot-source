@@ -63,15 +63,15 @@ class Bypass(commands.Cog):
 
         if api == "bypasscity":
             base = (
-                "http://176.100.37.77:30017/api/freebypass?nocache=true&provider=bypasscity&url="
+                "http://94.249.197.222:8748/api/freebypass?nocache=true&provider=bypasscity&url="
                 if no_cache == "true"
-                else "http://176.100.37.77:30017/api/freebypass?provider=bypasscity&url="
+                else "http://94.249.197.222:8748/api/freebypass?provider=bypasscity&url="
             )
         else:
             base = (
-                "http://176.100.37.77:30017/api/freebypass?nocache=true&provider=izen&url="
+                "http://94.249.197.222:8748/api/freebypass?nocache=true&provider=izen&url="
                 if no_cache == "true"
-                else "http://176.100.37.77:30017/api/freebypass?provider=izen&url="
+                else "http://94.249.197.222:8748/api/freebypass?provider=izen&url="
             )
 
         full_url = base + encoded
